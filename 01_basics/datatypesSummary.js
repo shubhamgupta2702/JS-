@@ -33,3 +33,8 @@ let myObj = {
     console.log("Hello World");
     
  }
+
+ console.log(typeof myfunction);
+console.log(typeof Symbol);
+ console.log(typeof anotherId);
+ 
