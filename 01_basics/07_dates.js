@@ -16,6 +16,19 @@ console.log(myCreatedDate.toLocaleString());
 var myNewDate = new Date("01-14-2024")  // months starts from 1 in Object  //mm-dd-yy
 console.log(myNewDate.toLocaleString());
 
+var myTimeStamp = Date.now()
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());  //it gives value from 1st January refrence
+
+console.log(Math.floor(Date.now()/1000));
+
+let newDate = new Date()
+console.log(newDate.getMonth() + 1); // months starts from 0 thatswhy we add 1 so that user dont get confused.
+console.log(newDate.getDay());
+
+console.log(newDate.toLocaleString('default', {weekday:"long", hour:"numeric"}))
+
+
 
 
 
