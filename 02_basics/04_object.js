@@ -60,6 +60,31 @@ const users = [
  
  
  
+const course = {
+    coursename: "js in hindi" ,
+    price: "999",
+    courseInstructor: "Hitesh Sir"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: Instructor} = course // calling syntax for functions(Object) // we can destructure the object like Instructor. Course structure key becomes instructor
+
+console.log(Instructor);
+// JSON format
+// {
+//     "name": "Shubham",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
 
 
