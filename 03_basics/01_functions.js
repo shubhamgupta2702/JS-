@@ -49,7 +49,7 @@ function calculateCartPrice(val1 , val2 , ...num1){   /// three dot is the rest 
 
 console.log(calculateCartPrice(200 ,300 , 400 , 700));
 
-//    Method of passing Array in the Function
+//    Method of passing Object in the Function
 const user = {
     username: "shubham",
     prices: "199"
