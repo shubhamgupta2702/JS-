@@ -8,7 +8,7 @@ const mySum = Symbol("key1")
 const JsUser = {
     name: "shubham",
     "full name" :"Shubham Gupta",
-    [mySum]: "mykey1",     //syntax for defining a symbol
+    [mySum]: "mykey1",     //syntax for defining a symbol in object
     age :18,
     location: "Jaipur",
     email: "shubham@gmail.com",
