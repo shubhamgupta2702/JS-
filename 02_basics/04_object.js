@@ -35,7 +35,7 @@ const obj3 = {...obj1,...obj2}  // it used to merge objects #Best Way like an ar
 // console.log(obj3);
 
 
-  //          Array's Object  --> arrays k andr object
+  //          Array's Object  --> arrays k andr objects
 const users = [
     {
         id: 1,
@@ -48,6 +48,17 @@ const users = [
 ]
 //  console.log(users[1].email)  // Methods for accessing the array's Object
  console.log(tinderUser);
+
+ console.log(Object.keys(tinderUser));    // It gives the array of the keys in the Object-> tinderuser
+ console.log(Object.values(tinderUser));  // It gives the array of the values in the Object-> tinderuser
+
+ console.log(Object.entries(tinderUser));  // Every key value pair get turns into array of Object ->tinderuser
+
+ console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // used to detect the property of the object. it returns boolean value.
+ 
+ 
+ 
+ 
  
 
 
