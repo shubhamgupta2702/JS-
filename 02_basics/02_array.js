@@ -6,7 +6,7 @@ const dc_heros = new Array('superman' , 'batman' , 'flash')
 //console.log(marvel_heros);  //it treats the whole dc heros array as an element of marvel heros
 //console.log(marvel_heros[3][2]);  //accessing the 3rd element of 2nd element of marvel heros
 
-const all_heros = marvel_heros.concat(dc_heros) //used to merge 2 arrays 
+const all_heros = marvel_heros.concat(dc_heros)       //used to merge 2 arrays 
 console.log(all_heros);
 console.log(typeof all_heros);
 
