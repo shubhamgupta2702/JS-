@@ -38,18 +38,18 @@ const panda = () => {
 }
 // panda()
 
-// 1ST WAY OF DECLARING ARROW FUNCTIONS
+            // 1ST WAY OF DECLARING ARROW FUNCTIONS
 
 
 // const addTwo = (num1 , num2) => {
 //     return num1 + num2
 // }
 
-// 2ND WAY OF DECLARING ARROW FUNCTIONS
+            // 2ND WAY OF DECLARING ARROW FUNCTIONS
 
 // const addTwo = (num1 , num2) => num1 + num2  // 
 
-// WRD WAY OF DECLARING ARROW FUNCTIONS   #MOST USED METHOD
+            // 3RD WAY OF DECLARING ARROW FUNCTIONS   #MOST USED METHOD
 
 const addTwo = (num1 , num2) => (num1 + num2)  // no need to write return while using parethesis
 
