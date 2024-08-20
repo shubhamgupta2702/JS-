@@ -28,7 +28,7 @@ buttons.forEach(function(button) {
     
 })
 
-#Project 2
+#Project 2 - BMI Calculator
 
 const form = document.querySelector('form')
 const body = document.querySelector('body')
@@ -64,7 +64,7 @@ form.addEventListener('submit' , function(s){
 
 })
 
-#Project 3
+#Project 3  Digital Clock
 const clock = document.getElementById('clock')
 // const clock = document.querySelector('#clock')
 
@@ -76,7 +76,7 @@ setInterval(function () {
     clock.innerHTML = date.toLocaleTimeString();
 }, 1000)
 
-#Project 4
+#Project 4 - Guess The Number Game
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
