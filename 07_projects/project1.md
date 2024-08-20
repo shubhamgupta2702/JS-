@@ -29,8 +29,8 @@ buttons.forEach(function(button) {
 })
 
 #Project 2
-```Javascript 
-```const form = document.querySelector('form')
+
+const form = document.querySelector('form')
 const body = document.querySelector('body')
 const container = document.querySelector('.container')
 body.style.backgroundColor = 'grey'
