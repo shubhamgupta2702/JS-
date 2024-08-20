@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+    
+</body>
+<script>
+    // THIS SUFFERS MORE TRAVERSING IN LONG PROGRAM
+    function addLanguage(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language'). appendChild(li)
+       
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+    // THIS IS THE BEST METHOD AND HAVE LESS TRAVERSING
+
+    function addOptiLanguage(langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addOptiLanguage("React JS")
+
+
+    //     EDIT ELEMENTS
+
+    const secondlang = document.querySelector('li:nth-child(2)')
+    // secondlang.innerHTML = "Django"
+
+    const editPy = document.createElement('li')
+    editPy.textContent = "DJango"
+    secondlang.replaceWith(editPy)
+
+
+    //edit
+
+    const firstLang = document.querySelector('li:nth-child(1)')
+
+    const editJS = document.createElement('li')
+    editJS.textContent = "CSS"
+    firstLang.replaceWith(editJS)
+
+    // edit
+
+    const thirdLang =  document.querySelector('li:nth-child(3)')
+    const editTS = document.createElement('li')
+    editTS.textContent = "HTML"
+    thirdLang.replaceWith(editTS)
+    
+    //edit
+
+    const fourthLang = document.querySelector('li:nth-child(4)')
+    fourthLang.outerHTML = '<li> C PROGRAMMING</li>'
+
+    //remove an element
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+</script>
+ </html>
